@@ -1,6 +1,6 @@
 import torch.nn as nn
-from models.morn import MORN
-from models.asrn_res import ASRN
+from MORAN_v2.models.morn import MORN
+from MORAN_v2.models.asrn_res import ASRN
 
 class MORAN(nn.Module):
 

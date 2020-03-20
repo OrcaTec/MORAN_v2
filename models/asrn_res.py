@@ -4,7 +4,7 @@ from torch.nn import init
 import torch.nn.functional as F
 from torch.autograd import Variable
 from torch.nn.parameter import Parameter
-from models.fracPickup import fracPickup
+from MORAN_v2.models.fracPickup import fracPickup
 
 class BidirectionalLSTM(nn.Module):
 
